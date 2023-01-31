@@ -21,7 +21,7 @@ const createElementHtml = (tag, className) => {
 }
 
 const checkEndGame = () => {
-    if (document.querySelectorAll(".disabled-card").length === 2) {
+    if (document.querySelectorAll(".disabled-card").length === 16) {
         clearInterval(this.loop)
         alert(
             `Parabéns, ${spanPlayer.innerHTML} você ganhou e o seu tempo foi de ${spanTimer.innerHTML} segundos!`
